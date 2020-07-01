@@ -1,14 +1,4 @@
 
-/**
- *
- * @param text
- * @constructor
- */
-function AddMessage(text) {
-    var message = new Message('#messages');
-    message.add(text);
-}
-
 var response = function (xhr) {
     console.log("xhr", xhr);
     // console.log("b", b);
