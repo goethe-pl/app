@@ -201,8 +201,10 @@
 <body>
 
 <div class="container fade-in" id="jloads">
-    <!-- Content here -->
-<!--    <div class="menu">-->
+
+    <!-- Menu here -->
+
+    <!--    <div class="menu">-->
 <!--        <div id="images" class="images"></div>-->
 
 <!--        <div class="title">-->
@@ -210,6 +212,7 @@
 <!--        </div>-->
 <!--    </div>-->
 
+    <!-- Content here -->
     <div class="jloads content">
 
         <div id="forms"></div>
@@ -224,16 +227,47 @@
         </div>
     </div>
 
+    <!-- Footer here -->
     <div class="footer">
         <h5>
-            local: <a href="http://localhost:80/" rel="nofollow">localhost:80/</a>
-            | production: <a href="//app.goethe.pl" rel="nofollow">app.goethe.pl</a>
+            <!--            local: <a href="http://localhost:80/" rel="nofollow">localhost:80/</a>-->
+            <a href="//app.goethe.pl" rel="nofollow">app.goethe.pl</a>
+            | <a href="https://docs.goethe.pl" rel="nofollow">docs</a>
+            | <a href="https://github.com/goethe-pl/" rel="nofollow">git</a>
+            | <a href="tags1.html" rel="nofollow">tags1</a>
+            | <a href="tags2.html" rel="nofollow">tags2</a>
             | supported by: <a href="https://softreck.com" rel="nofollow">softreck.com</a>
-            | <a href="https://docs.faas.ovh" rel="nofollow">docs</a>
         </h5>
     </div>
 
 </div>
+
+<footer>
+    <div class="container">
+        <h2 class="text-left">Usage</h2>
+        <pre>
+			<code>
+                jloadsUrl({
+                    "head": [
+                        "css/fade-in.css",
+                    ],
+                    "#messages": [
+                        "messages/messages.html",
+                        "messages/messages.js"
+                    ],
+                    "#forms": [
+                        "form/form.html",
+                        "form/form.js"
+                    ],
+                    "#images": [
+                        "img/logo.png"
+                    ]
+
+                });
+			</code>
+		</pre>
+    </div>
+</footer>
 
 </body>
 </html>

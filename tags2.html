@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jquery Suggestags - Amsify42</title>
+
+<!-- CDN links -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="amsify/amsify.suggestags.css">
+
+<!-- Amsify Plugin -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script type="text/javascript" src="amsify/jquery.amsify.suggestags.js"></script>
+</head>
+<body>
+<header>
+	<div class="container">
+		<h1 class="text-center">Nauka Gramatyki języka Niemieckiego</h1>
+	</div>
+</header>
+<div class="container" style="min-height:360px;">
+	<div class="col-md-3"></div>
+	<div class="col-md-6 text-center">
+
+<!--		<h4>Polish Sentence</h4>-->
+		<div class="form-group sentence first">
+<!--			<input type="text" class="form-control" name="first" value="Ich,bin,zu,Hause"/>-->
+			<input type="text" class="form-control" name="first" value="Jestem,w,domu"/>
+		</div>
+
+<!--		<h4>Already Selected(Suggestions)</h4>-->
+<!--		<div class="form-group">-->
+<!--			<input type="text" class="form-control" name="color" value="Orange,Green"/>-->
+<!--		</div>-->
+
+<!--		<h4>Suggestions as objects</h4>-->
+<!--		<div class="form-group">-->
+<!--			<input type="text" class="form-control" name="color2"/>-->
+<!--		</div>-->
+
+<!--		<h4>Suggestions through Ajax</h4>-->
+<!--		<div class="form-group">-->
+<!--			<input type="text" class="form-control" name="toAjax"/>-->
+<!--		</div>-->
+
+<!--		<h4>WhiteList</h4>-->
+<!--		<div class="form-group">-->
+<!--			<input type="text" class="form-control" name="planets" value="Earth,Mars"/>-->
+<!--		</div>-->
+
+<!--		<h4>German Sentence</h4>-->
+		<div class="form-group sentence">
+			<input type="text" class="form-control" name="sentence" value="Ich,bin,zu,Hause"/>
+		</div>
+
+<!--		<h4>Tag Limit</h4>-->
+<!--		<div class="form-group">-->
+<!--			<input type="text" class="form-control" name="anything" value="one,two,three,four,five,six"/>-->
+<!--		</div>-->
+	</div>
+	<div class="col-md-3"></div>
+
+
+	<!-- Footer here -->
+	<div class="footer">
+		<h5>
+			<!--            local: <a href="http://localhost:80/" rel="nofollow">localhost:80/</a>-->
+			 <a href="//app.goethe.pl" rel="nofollow">app.goethe.pl</a>
+			| <a href="https://docs.goethe.pl" rel="nofollow">docs</a>
+			| <a href="https://github.com/goethe-pl/" rel="nofollow">git</a>
+			| <a href="tags1.html" rel="nofollow">tags1</a>
+			| <a href="tags2.html" rel="nofollow">tags2</a>
+			| supported by: <a href="https://softreck.com" rel="nofollow">softreck.com</a>
+		</h5>
+	</div>
+
+</div>
+
+
+<!-- -->
+<script type="text/javascript">
+	$('input[name="first"]').amsifySuggestags();
+	// $('input[name="color"]').amsifySuggestags({
+	// 	suggestions: ['Black', 'White', 'Red', 'Blue', 'Green', 'Orange'],
+	// 	showAllSuggestions: true
+	// });
+	// $('input[name="color2"]').amsifySuggestags({
+	// 	suggestions: [
+	// 					{tag: 'Black', value: 1},
+	// 					{tag: 'White', value: 2},
+	// 					{tag: 'Red', value: 3},
+	// 					{tag: 'Blue', value: 4},
+	// 					{tag: 'Green', value: 5},
+	// 					{tag: 'Orange', value: 6},
+	// 				],
+	// 	whiteList: true
+	// });
+	// $('input[name="toAjax"]').amsifySuggestags({
+	// 	suggestionsAction : {
+	// 		url : 'jquery-plugins/suggestags/examples/suggestions.php',
+	// 		beforeSend : function() {
+	// 			console.info('beforeSend');
+	// 		},
+	// 		success: function(data) {
+	// 			console.info(data);
+	// 		},
+	// 		error: function() {
+	// 			console.info('error');
+	// 		},
+	// 		complete: function(data) {
+	// 			console.info('complete');
+	// 		}
+	// 	}
+	// });
+	// $('input[name="planets"]').amsifySuggestags({
+	// 	suggestions: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupitor', 'Uranus', 'Neptune', 'Pluto'],
+	// 	whiteList: true
+	// });
+
+	$('input[name="sentence"]').amsifySuggestags({
+		suggestions: ['Ich', 'bin', 'zu', 'Hause'],
+		classes: ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning', 'bg-info'],
+		whiteList: true,
+		afterAdd : function(value) {
+			console.info(value);
+		},
+		afterRemove : function(value) {
+			console.info(value);
+		},
+	});
+	// $('input[name="anything"]').amsifySuggestags({
+	// 	tagLimit: 5
+	// });
+
+	$('input.amsify-suggestags-input').attr("placeholder","...");
+</script>
+
+<style>
+	.sentence {
+		font-weight: bolder;
+	}
+	.bg-primary {
+		color: black;
+		background-color: #c4e7ff;
+	}
+	.amsify-remove-tag {
+		color: #cccccc;
+	}
+	.amsify-remove-tag:hover {
+		color: #ffaaaa;
+	}
+
+	/*'bg-primary', 'bg-success', 'bg-danger', 'bg-warning', 'bg-info'*/
+	.amsify-select-tag {
+		color: black;
+	}
+	.sentence.first .amsify-select-tag {
+		color: black;
+		background-color: #eeeeee;
+		font-weight: bold;
+	}
+	.amsify-suggestags-input {
+
+	}
+</style>
+
+
+</body>
+</html>

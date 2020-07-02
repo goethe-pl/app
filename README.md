@@ -59,3 +59,26 @@ Wspieranie procesu nauki poprzez narzędzia i metody.
     + zaimki osobowe
     
     przykłady odmiany w innych osobach i przypadkach
+
+## Analizator istniejącego zdania
+pokazuje rozkłada zdania
+określa części zdania
+czas
+przypadek
+zdania podrzędne i nadrzędne
+
+
+## Aplikacja do budowania zdań
+
+trzeba zebrać słownictwo jakie ma być używane
+Jakie czasy wykorzystywane i jakie typy zdań mają być budowane.
+
+1. Zbuduj zdanie oznajmujące w czasie teraźniejszym
+
++ kombinacje tego dla zmiennych
++ 
+
++ Generator zadań
+
+
+
