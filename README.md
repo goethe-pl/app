@@ -85,6 +85,13 @@ Jakie czasy wykorzystywane i jakie typy zdań mają być budowane.
 + [ROZBIOR_LOGICZNY.md](ROZBIOR_LOGICZNY.md)
 
 
+# Libraries
+
+![lib1.png](docs/lib1.png)
+https://www.jqueryscript.net/form/Tagging-System-Autocomplete-Amsify-Suggestags.html
+
+![lib2.png](docs/lib2.png)
+https://www.jqueryscript.net/demo/Simple-Animated-jQuery-Tags-Input-Plugin-Lovely-Tag/
 
 
 # [API Foundation](https://www.apifoundation.com)
