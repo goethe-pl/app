@@ -13,6 +13,7 @@ Aplikacja do analizy gramatyki języka na podstawie zdania
 
 analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników na podstawie członów podstawowych
 
+
 ### Pierwsza wersja
 
 Wymaga wpisania poprawnych rzeczowników i czasowników
@@ -80,5 +81,24 @@ Jakie czasy wykorzystywane i jakie typy zdań mają być budowane.
 
 + Generator zadań
 
++ [ROZBIOR_GRAMATYCZNY.md](ROZBIOR_GRAMATYCZNY.md)
++ [ROZBIOR_LOGICZNY.md](ROZBIOR_LOGICZNY.md)
 
 
+
+
+# [API Foundation](https://www.apifoundation.com)
+
+Projekt APIcra jest wspierany przez [API Foundation](https://www.apifoundation.com)
+
+Wystartowaliśmy w roku 2018 z kilkoma pomysłami ale jedną ideą:
++ szybsze wytwarzanie orogramowania
+
+Dziś, w roku 2020 dajemy rozwiązania w kilku obszarach:
+
++ [APIexec - executor library for shell scripts](https://www.apiexec.com)
++ [APIcra - shell scripts libraries](https://www.apicra.com)
++ [APIunit - definition of application, CI, CD](https://www.apiunit.com)
++ [APIbuild - build process definition, focused on quality, versioning](https://www.jloads.com)
++ [APIsql - bazy danych, zapytania, modele](https://www.apisql.com)
++ [APIfunc - rozwiązania dla FaaS](https://www.apifunc.com)
