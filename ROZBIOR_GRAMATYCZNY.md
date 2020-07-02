@@ -3,6 +3,8 @@
 
 ![rozbior gramatczyny i logiczny](docs/12-010-26_2.jpg)
 
+https://blog.tyczkowski.com/2018/06/biernik-w-jezyku-niemieckim-akkusativ/
+![akkusativ-niemiecki.png](docs/akkusativ-niemiecki.png)
 
 # goethe
 Aplikacja oparta o język python umożliwiająca analizę gramatyczną języka niemieckiego
