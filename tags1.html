@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jquery Suggestags - Amsify42</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-<!-- CDN links -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="amsify/amsify.suggestags.css">
+    <title>Nauka gramatyki języka polskiego</title>
 
-<!-- Amsify Plugin -->
-<script type="text/javascript" src="amsify/jquery.amsify.suggestags.js"></script>
+    <script src="//get.jloads.com/jloads-form.js"></script>
+    <script>
+        jloadsUrl({
+            "head": [
+                "//code.jquery.com/jquery-3.5.1.min.js",
+                "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+                "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+                "amsify/amsify.suggestags.css",
+                "amsify/jquery.amsify.suggestags.js",
+                "amsify/config.js",
+                "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+
+                "css/fade-in.css",
+                "css/tags.css",
+
+            ],
+            "footer": [
+                "html/footer.html"
+            ]
+        });
+    </script>
+
 </head>
 <body>
 <header>
-	<div class="container">
-		<h1 class="text-center">Sentence</h1>
-	</div>
+    <div class="container">
+        <h1 class="text-center">Sentence</h1>
+    </div>
 </header>
 <div class="container" style="min-height:360px;">
-	<div class="col-md-3"></div>
-	<div class="col-md-6 text-center">
-		<div class="form-group">
-			<input type="text" class="form-control" name="country"/>
-		</div>
-		<br><br>
-		<h4>Already Selected</h4>
-		<div class="form-group">
-			<input type="text" class="form-control" name="color" value="Ich,gehe"/>
-		</div>
-		<h4>Suggestions through Ajax</h4>
-		<div class="form-group">
-			<input type="text" class="form-control" name="toAjax"/>
-		</div>
-		<h4>White Listed</h4>
-		<div class="form-group">
-			<input type="text" class="form-control" name="planets" value="Earth,Mars"/>
-		</div>
-		<h4>Tag Limit</h4>
-		<div class="form-group">
-			<input type="text" class="form-control" name="anything" value="one,two,three,four,five,six"/>
-		</div>
-	</div>
-	<div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+        <div class="form-group">
+            <input type="text" class="form-control" name="country"/>
+        </div>
+        <br><br>
+        <h4>Already Selected</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" name="color" value="Ich,gehe"/>
+        </div>
+        <h4>Suggestions through Ajax</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" name="toAjax"/>
+        </div>
+        <h4>White Listed</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" name="planets" value="Earth,Mars"/>
+        </div>
+        <h4>Tag Limit</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" name="anything" value="one,two,three,four,five,six"/>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
 </div>
 
 <pre>
@@ -58,28 +77,28 @@ https://deutschlernerblog.de/zu-hause-oder-nach-hause/
 
 <!-- -->
 <script type="text/javascript">
-	$('input[name="country"]').amsifySuggestags({
-		type : 'amsify'
-	});
-	$('input[name="color"]').amsifySuggestags({
-		type : 'amsify',
-		suggestions: ['Ich', 'bin', 'zu', 'Hause', 'Green', 'Orange']
-	});
-	$('input[name="toAjax"]').amsifySuggestags({
-		type : 'amsify',
-		suggestionsAction : {
-			url : 'https://api.goethe.pl/tag.php'
-		}
-	});
-	$('input[name="planets"]').amsifySuggestags({
-		type : 'amsify',
-		suggestions: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupitor', 'Uranus', 'Neptune', 'Pluto'],
-		whiteList: true
-	});
-	$('input[name="anything"]').amsifySuggestags({
-		type : 'amsify',
-		tagLimit: 5
-	});
+    $('input[name="country"]').amsifySuggestags({
+        type: 'amsify'
+    });
+    $('input[name="color"]').amsifySuggestags({
+        type: 'amsify',
+        suggestions: ['Ich', 'bin', 'zu', 'Hause', 'Green', 'Orange']
+    });
+    $('input[name="toAjax"]').amsifySuggestags({
+        type: 'amsify',
+        suggestionsAction: {
+            url: 'https://api.goethe.pl/tag.php'
+        }
+    });
+    $('input[name="planets"]').amsifySuggestags({
+        type: 'amsify',
+        suggestions: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupitor', 'Uranus', 'Neptune', 'Pluto'],
+        whiteList: true
+    });
+    $('input[name="anything"]').amsifySuggestags({
+        type: 'amsify',
+        tagLimit: 5
+    });
 </script>
 </body>
 </html>
