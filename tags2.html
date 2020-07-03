@@ -11,10 +11,12 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- CDN links -->
-    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
 
 
-    <script src="//get.jloads.com/jloads-form.js"></script>
+    <!--    <script src="//get.jloads.com/jloads-form.js"></script>-->
+    <script src="//get.jloads.com/jloads-obj.js?2"></script>
     <script>
         jloadsUrl({
             "head": [
@@ -22,21 +24,26 @@
                 "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
                 "amsify/amsify.suggestags.css",
                 "amsify/jquery.amsify.suggestags.js",
-                "amsify/config.js",
                 "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
                 "css/fade-in.css",
                 "css/tags.css",
             ],
             "footer": [
-                "html/footer.html"
+                "html/footer.html",
+                "amsify/config.js",
             ]
         });
     </script>
 
-    <script src="//get.jloads.com/jloads-obj.js"></script>
+
     <script>
-        jloadsObj("json/sentence.json", function (obj,url){
-            console.log(obj.version,url);
+        jloadsObj("json/sentence.json", function (obj, url) {
+            console.log(obj["q&a"], url);
+            each(obj["q&a"], function (v,k) {
+                var varr = v.split(' ');
+                console.log(k,v,varr);
+                $('input[name="first"]').val(varr);
+            });
         });
     </script>
 </head>
