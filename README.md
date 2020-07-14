@@ -50,50 +50,6 @@ Nauka języka niemieckiego oraz rozwój systemów do nauki języków obcych
 
 Wspieranie procesu nauki poprzez narzędzia i metody.
 
-
-## Rozwiązania
-
-+ wyszukiwanie cytatów 
-+ przykładowe frazy często występujące w życiu oraz ich analiza:
-    + odmiana
-    + przymiotniki
-    + zaimki osobowe
-    
-    przykłady odmiany w innych osobach i przypadkach
-
-## Analizator istniejącego zdania
-pokazuje rozkłada zdania
-określa części zdania
-czas
-przypadek
-zdania podrzędne i nadrzędne
-
-
-## Aplikacja do budowania zdań
-
-trzeba zebrać słownictwo jakie ma być używane
-Jakie czasy wykorzystywane i jakie typy zdań mają być budowane.
-
-1. Zbuduj zdanie oznajmujące w czasie teraźniejszym
-
-+ kombinacje tego dla zmiennych
-+ 
-
-+ Generator zadań
-
-+ [ROZBIOR_GRAMATYCZNY.md](ROZBIOR_GRAMATYCZNY.md)
-+ [ROZBIOR_LOGICZNY.md](ROZBIOR_LOGICZNY.md)
-
-
-# Libraries
-
-![lib1.png](docs/lib1.png)
-https://www.jqueryscript.net/form/Tagging-System-Autocomplete-Amsify-Suggestags.html
-
-![lib2.png](docs/lib2.png)
-https://www.jqueryscript.net/demo/Simple-Animated-jQuery-Tags-Input-Plugin-Lovely-Tag/
-
-
 # [API Foundation](https://www.apifoundation.com)
 
 Projekt APIcra jest wspierany przez [API Foundation](https://www.apifoundation.com)
