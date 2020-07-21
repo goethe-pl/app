@@ -1,2 +1,3 @@
 #!/bin/bash
-netstat -lpn |grep :'3000'
+echo "status of node application:"
+netstat -lpn |grep :'80'

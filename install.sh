@@ -1,4 +1,9 @@
 #!/bin/bash
+echo "I will install Node environment to start project"
+apt-get autoremove -y
+apt-get update -y
+apt-get install nodejs npm -y
+
 echo "I will install NPM packages on this project ..."
 
 full_path=$(realpath $0)
