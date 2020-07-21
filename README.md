@@ -1,12 +1,7 @@
+![goethe.png](https://logo.goethe.pl/2/default.png)
+
 # goethe
 [Blog opisujący metody nauki gramatyki](www.goethe.pl) 
- 
-## Deploy PWA Website
-
-<a href="http://app.faas.ovh?git=https://github.com/goethe-pl/app">
-  <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
-</a>
-
 
 ## app.goethe.pl
 https://github.com/goethe-pl/app
@@ -16,6 +11,16 @@ Aplikacja do analizy gramatyki języka na podstawie zdania
 ### Zasada działania
 
 analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników na podstawie członów podstawowych
+
+## Deploy PWA Website
+
+<a href="http://app.faas.ovh?git=https://github.com/goethe-pl/app">
+  <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
+</a>
+
+
+## Changelog
++ [changelog](changelog.md)
 
 
 
