@@ -4,9 +4,10 @@
 [Blog opisujący metody nauki gramatyki](www.goethe.pl) 
 
 ## app.goethe.pl
-https://github.com/goethe-pl/app
 
-Aplikacja do analizy gramatyki języka na podstawie zdania
+[github repositry](https://github.com/goethe-pl/app)
+
+Goethe to aplikacja do analizy gramatyki języka na podstawie zdania
 
 ### Zasada działania
 
@@ -14,7 +15,7 @@ analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników n
 
 ## Deploy PWA Website
 
-<a href="http://app.faas.ovh?git=https://github.com/goethe-pl/app">
+<a href="http://app.faas.ovh?start.sh&clone=https://github.com/goethe-pl/app">
   <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
 </a>
 
