@@ -6,12 +6,20 @@ PWA Website
 Blog opisujący metody
 
 ## app.goethe.pl
+https://github.com/goethe-pl/app
 
 Aplikacja do analizy gramatyki języka na podstawie zdania
 
 ### Zasada działania
 
 analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników na podstawie członów podstawowych
+
+
+## Deploy
+
+<a href="http://app.faas.ovh?git=https://github.com/goethe-pl/app">
+  <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
+</a>
 
 
 ### Pierwsza wersja
@@ -53,11 +61,8 @@ Wspieranie procesu nauki poprzez narzędzia i metody.
 # [API Foundation](https://www.apifoundation.com)
 
 Projekt APIcra jest wspierany przez [API Foundation](https://www.apifoundation.com)
-
-Wystartowaliśmy w roku 2018 z kilkoma pomysłami ale jedną ideą:
 + szybsze wytwarzanie orogramowania
-
-Dziś, w roku 2020 dajemy rozwiązania w kilku obszarach:
++ rozwiązania w kilku obszarach:
 
 + [APIexec - executor library for shell scripts](https://www.apiexec.com)
 + [APIcra - shell scripts libraries](https://www.apicra.com)
