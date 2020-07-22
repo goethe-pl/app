@@ -1,9 +1,13 @@
 #!/bin/bash
-echo "I will install Node environment to start project"
+echo "I will prepare linux for updates"
 apt-get autoremove -y
 apt-get update -y
+echo "I will install git"
+apt-get install git
+git --version
+echo "I will install Node environment to start project"
 apt-get install nodejs npm -y
-
+npm --version
 echo "I will install NPM packages on this project ..."
 
 full_path=$(realpath $0)
