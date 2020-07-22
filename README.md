@@ -15,7 +15,7 @@ analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników n
 
 ## Deploy PWA Website
 
-<a href="http://app.faas.ovh?start.sh&clone=https://github.com/goethe-pl/app">
+<a href="http://app.faas.ovh/?clone=https://github.com/goethe-pl/app&install&start">
   <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
 </a>
 
