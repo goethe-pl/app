@@ -20,6 +20,12 @@ analiza polega na znalezieniu zaimków osobowych, rzeczowników i czasowników n
 </a>
 
 
+if exist, just start
+
+<a href="http://app.faas.ovh/?start">
+  <img src="https://button.faas.ovh/deploy.on.faas.png" alt="Deploy on Faas">
+</a>
+
 ## Changelog
 + [changelog](changelog.md)
 
